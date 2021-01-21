@@ -56,4 +56,39 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
+"------------
+" preferences
+"------------
+set fileformat=unix
+set encoding=utf-8
+
+" always show status line
+set laststatus=2
+
+" use filetype to guess syntax highlighting and indentation
+filetype plugin on
+filetype plugin indent on
+
+" line numbers
 set number
+
+" highlight matches
+set hlsearch
+
+" highlight the current line background
+set cursorline
+
+" keep test on one line
+set nowrap
+
+" incremental search
+set incsearch
+
+" start scrolling 5 lines before the border
+set so=5
+
+" visual autocomplete
+set wildmenu
+
+" line at 80 char
+set colorcolumn=80
