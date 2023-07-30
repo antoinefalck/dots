@@ -108,3 +108,4 @@ prompt_context(){}
 # aliases
 alias ls='exa -lah --group-directories-first --color=always'
 alias gds='dit diff --stat'
+
