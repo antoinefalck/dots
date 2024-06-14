@@ -92,3 +92,4 @@ set wildmenu
 
 " line at 80 char
 set colorcolumn=80
+
